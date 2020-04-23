@@ -21,7 +21,7 @@ The PIC18F47Q10 Curiosity Nano Development Board is used as the test platform.
 
 The following configurations must be made for this project:
 
-|Pin           | Configuration      |
+| Pin          | Configuration      |
 | :----------: | :----------------: |
 |RA5 (SS)      | Digital Input      |
 |RC3 (SCK)     | Digital Input      |

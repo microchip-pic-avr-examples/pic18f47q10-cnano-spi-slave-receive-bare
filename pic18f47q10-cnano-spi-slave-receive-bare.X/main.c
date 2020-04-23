@@ -48,7 +48,7 @@ static void CLK_Initialize(void)
 
 static void PPS_Initialize(void)
 {
-    SSP1SSPPS = 0x05;             /* SS channel on RA5 */
+    SSP1SSPPS = 0x05;            /* SS channel on RA5 */
     
     RC3PPS = 0x0F;               /* SCK channel on RC3 */
  
@@ -79,7 +79,7 @@ static uint8_t SPI1_exchangeByte(uint8_t data)
 {
     SSP1BUF = data;
     
-    while(!PIR3bits.SSP1IF) /* Wait until data is exchanged */
+    while(!PIR3bits.SSP1IF) 	/* Wait until data is exchanged */
     {
         ;
     }   
